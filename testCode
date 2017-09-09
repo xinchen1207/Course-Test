@@ -1,0 +1,7 @@
+class Reverse {
+    public String reverseString(String s) {
+        StringBuilder builder = new StringBuilder(s);
+        builder.reverse();
+        return new String(builder);
+    }
+}
